@@ -10,7 +10,7 @@ int main()
 	int n;
 	printf("mit oder ohne breakpoints am Flußdiagram? (1 = Ja, 0 = Nein, aber mit print, 2 = Nein, ohne print)?");
 	scanf_s("%d",&breakpoints);
-	if(!(breakpoints == 1 || breakpoints == 0))breakpoints=1,printf("Also Ja");
+	if(!(breakpoints == 2 || breakpoints == 1 || breakpoints == 0))breakpoints=1,printf("Also Ja");
 	printf("ganze positive Zahl eingeben:\n");
 	scanf_s("%d",&n);
 	getchar(); //damit der den Enter-press nicht für das nächste getchar() hällt
