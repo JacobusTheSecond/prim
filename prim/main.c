@@ -8,7 +8,7 @@ int main()
 	//eingabenerkennung
 	int breakpoints = 1;
 	int n;
-	printf("mit oder ohne breakpoints am Fluﬂdiagram? (1 = Ja, 0 = Nein)?");
+	printf("mit oder ohne breakpoints am Fluﬂdiagram? (1 = Ja, 0 = Nein, aber mit print, 2 = Nein, ohne print)?");
 	scanf_s("%d",&breakpoints);
 	if(!(breakpoints == 1 || breakpoints == 0))breakpoints=1,printf("Also Ja");
 	printf("ganze positive Zahl eingeben:\n");
